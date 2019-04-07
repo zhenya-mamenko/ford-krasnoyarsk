@@ -1,0 +1,15 @@
+div.disclaimer {
+	margin-bottom: 90px;
+}
+
+div.disclaimer p {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+@media (max-width: 768px) {
+
+	div.disclaimer p {
+		font-size: 14px;
+	}
+}
