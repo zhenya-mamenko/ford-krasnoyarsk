@@ -93,7 +93,7 @@ a:hover {
 	color: #a12426
 }
 
-a.button {
+a.order-button {
 	font-weight: bold;
 	text-decoration: none;
 	border-radius: 3px;
@@ -109,7 +109,7 @@ a.button {
 	line-height: 27px;
 }
 
-a.button:hover {
+a.order-button:hover {
 	text-decoration: none;
 	background-color: #1b9e33;
 	transition: background-color 0.5s;

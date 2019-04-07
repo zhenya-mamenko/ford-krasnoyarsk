@@ -1,0 +1,63 @@
+div.info-block {
+	--background-color: #e8e8e8;
+	font-size:16px;
+	margin-bottom:72px;
+}
+
+div.info-block .container {
+	border-bottom: 2px #e8e8e8 solid;
+	padding-bottom: 90px;
+}
+
+div.info-block-head h2 {
+	text-transform: uppercase;
+	text-align: center;
+}
+
+div.info-block-list {
+	margin-bottom: 45px;
+	width: 100%;
+}
+
+div.info-block-list-item {
+	padding: 0px 20px 0px 30px;
+	background: url(/i/ico-arr.png) left top no-repeat;
+	font-size: 27px;
+	line-height: 36px;
+	background-position: 0px 10px;
+	float: left;
+}
+
+div.info-block h3 {
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+@media (max-width:768px) {
+
+	div.info-block-list {
+		margin-bottom: 45px;
+	}
+
+	div.info-block {
+		padding-bottom: 0px;
+	}
+
+	div.info-block h3 {
+		line-height: 27px;
+	}
+
+	div.info-block-list-item {
+		padding: 0px 20px 0px 30px;
+		background: url(/i/ico-arr.png) left top no-repeat;
+		font-size:18px;
+		line-height:27px;
+		background-position: 0px 10px;
+		float: left;
+	}
+
+	div.info-block .container {
+		padding-bottom:72px;
+	}
+}

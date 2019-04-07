@@ -4,6 +4,11 @@ header {
 
 .navbar-fixed-top {
 	z-index: 990;
+	top: 0;
+	border-width: 0 0 1px;
+	position: fixed;
+	right: 0;
+	left: 0;
 }
 
 div.header {
@@ -14,6 +19,8 @@ div.header {
 
 div.header-logo {
 	padding-top: 24px;
+	padding-right: 15px;
+	padding-left: 15px;
 }
 
 div.header-name {
@@ -22,6 +29,8 @@ div.header-name {
 
 div.header-phone {
 	padding-top: 18px;
+	padding-right: 15px;
+	padding-left: 15px;
 }
 
 div.header-phone-number {
@@ -43,6 +52,13 @@ header .header-btn {
 
 .ford-logo {
 	margin-right: 24px;
+}
+
+@media (max-width: 1200px) {
+
+	div.header-name h3 {
+		font-size: 24px;
+	}
 }
 
 @media (max-width: 768px) {
@@ -70,14 +86,17 @@ header .header-btn {
 
 	div.header-phone {
 		padding-top: 0px;
+		width: 100%;
 	}
 
 	div.header-logo {
 		text-align: center;
+		width: 100%;
 	}
 
 	div.header-name {
 		text-align: center;
+		width: 100%;
 	}
 
 	div.header-phone-number {
@@ -99,12 +118,5 @@ header .header-btn {
 
 	div.header-phone-number {
 		font-size: 18px;
-	}
-}
-
-@media (max-width: 1200px) {
-
-	div.header-name h3 {
-		font-size: 24px;
 	}
 }

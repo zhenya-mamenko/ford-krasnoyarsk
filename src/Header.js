@@ -1,7 +1,7 @@
-import React from 'react'
-import logo_ford from './i/logo-ford.png'
-import logo_redut from './i/logo-redut.png'
-import './Header.css'
+import React from 'react';
+import logo_ford from './i/logo-ford.png';
+import logo_redut from './i/logo-redut.png';
+import './Header.css';
 
 const Header = () => (
 	<header>
@@ -18,7 +18,7 @@ const Header = () => (
 							<h3>ООО &laquo;ФЦ-РЕДУТ&raquo;</h3>
 					</div>
 					<div className="header-btn col-lg-3 col-md-3 col-sm-2 hidden-sm">
-							<a href="#order-call" className="button">Заказать звонок</a>
+							<a href="#order-call" className="order-button">Заказать звонок</a>
 					</div>
 					<div className="header-phone col-lg-3 col-md-3 col-sm-5 ">
 							<div className="header-phone-number">+7 (391) 205-45-15</div>
@@ -42,7 +42,7 @@ const Header = () => (
 					</div>
 					<div className="header-phone col-xs-12">
 							<div className="header-phone-number">+7 (391) 205-45-15</div>
-							<div className="header-phone-adddress">г. Красноярск, <br />ул. Партизана Железняка, 46 &laquo;Д&raquo;</div>
+							<div className="header-phone-address">г. Красноярск, <br />ул. Партизана Железняка, 46 &laquo;Д&raquo;</div>
 					</div>
 				</div>
 			</div>

@@ -1,0 +1,20 @@
+div.cover-block img {
+	width: 100%;
+	height:auto;
+	margin-bottom: 27px;
+}
+
+div.cover-block-text h1 {
+	text-transform: uppercase;
+	color: #fff;
+	margin-top: 40px;
+	word-wrap: break-word;
+}
+
+div.cover-btn {
+	margin-bottom: 72px;
+}
+
+div.cover-btn .order-button {
+	font-size:18px;
+}
