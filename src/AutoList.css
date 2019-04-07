@@ -1,0 +1,69 @@
+div.autolist {
+	margin-bottom: 40px;
+}
+
+div.autolist-head h3 {
+	margin-bottom: 50px;
+	text-align:center;
+}
+
+div.autolist-block {
+	margin-bottom: 54px;
+	margin-top: -18px;
+}
+
+div.autolist-block-menu a {
+	display: block-inline;
+	margin-right: 18px;
+	font-size: 27px;
+	line-height: 45px;
+}
+
+.menu-link-select {
+	color: #941A13;
+	text-decoration: underline;
+}
+
+div.autolist-block-filterlink {
+	margin-top: 0px;
+	text-transform: uppercase;
+}
+
+div.autolist-block-filterlink a {
+	display: block-inline;
+	margin-right: 27px;
+	padding-left: 30px;
+	line-height:45px;
+}
+
+div.autolist-block-filterlink a:hover {
+	color: #941A13;
+	text-decoration:none;
+}
+
+.filterlink-link-select {
+	background: url(/i/ico-acc.png) left top no-repeat;
+	color: #941A13;
+}
+
+div.autolist-block-logo {
+	text-align: right;
+	margin-top: -15px;
+	line-height: 45px;
+}
+
+@media (max-width:768px) {
+
+	div.autolist-block-menu {
+		text-align: center;
+		margin-bottom: 18px;
+	}
+
+	div.autolist-block-menu a {
+		font-size: 18px;
+	}
+
+	div.autolist-block-filterlink {
+		margin-bottom: 36px;
+	}
+}

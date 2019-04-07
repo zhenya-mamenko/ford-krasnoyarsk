@@ -5,6 +5,7 @@ import Info from './Info';
 import Contacts from './Contacts';
 import Disclaimer from './Disclaimer';
 import SimpleInfo from './SimpleInfo';
+import AutoList from './AutoList';
 import cover_image from './i/cover.jpg';
 
 class App extends Component {
@@ -20,6 +21,9 @@ class App extends Component {
 					col3: <span>Специальные выгоды по программе Трейд-ин</span>,
 					additional: <h3>Количество автомобилей ограничено!</h3>,
 					} } />
+				<AutoList
+					header={ <h2>УСПЕЙТЕ ЗАБРАТЬ СВОЙ НОВЫЙ FORD НА БЕСПРЕЦЕДЕНТНЫХ УСЛОВИЯХ:</h2> }
+				/>
 				<SimpleInfo 
 					header={ <h2>ОСТАВЬТЕ ЗАЯВКУ НА ОЦЕНКУ СТАРОГО АВТОМОБИЛЯ</h2> }
 					info={
