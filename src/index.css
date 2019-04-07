@@ -47,7 +47,8 @@
 }
 
 body {
-	font-family: 'Ford Antenna', sans-serif; color:#1e1e1e;
+	font-family: 'Ford Antenna', sans-serif;
+	color: #1e1e1e;
 	font-weight: normal;
 	font-size: 18px;
 	line-height: 27px;
@@ -57,7 +58,7 @@ body {
 h1 {
 	font-size: 45px;
 	font-weight: lighter;
-	line-height: 63px
+	line-height: 63px;
 }
 
 h2 {
@@ -73,21 +74,52 @@ h3 {
 	font-size: 27px;
 	font-weight: normal;
 	margin-bottom: 36px;
-	line-height: 1.2em
+	line-height: 1.2em;
 }
 
 h4 {
-	font-size:27px;
-	font-weight:bold;
+	font-size: 27px;
+	font-weight: bold;
 	letter-spacing: 1px;
-	line-height:36px
+	line-height: 36px;
 }
 
 a {
-	color:#1e1e1e
+	color: #1e1e1e
 }
 
 a:hover {
-	color:#a12426
+	color: #a12426
 }
 
+@media (max-width: 768px) {
+
+	h1 {
+		font-size: 36px;
+		font-weight: lighter;
+		line-height: 45px
+	}
+
+	h2 {
+		font-size: 27px;
+		font-weight: lighter;
+		line-height: 36px;
+		margin-bottom: 45px;
+		margin-top: 0px;
+		text-align: center;
+	}
+
+	h3 {
+		font-size: 18px;
+		font-weight: normal;
+		margin-bottom: 27px;
+		line-height: 1.2em;
+	}
+
+	h4 {
+		font-size: 18px;
+		font-weight: bold;
+		letter-spacing: 1px;
+		line-height: 27px;
+	}
+}
