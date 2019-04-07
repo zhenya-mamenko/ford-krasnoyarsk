@@ -1,0 +1,18 @@
+div.simpleinfo-block {
+	font-size: 27px;
+	line-height: 36px;
+	margin-bottom: 90px;
+}
+
+div.simpleinfo-block .order-button {
+	margin-top: 30px;
+	font-size: 18px;
+}
+
+@media (max-width: 768px) {
+
+	div.simpleinfo-block {
+		font-size: 18px;
+		line-height: 27px;
+	}
+}
