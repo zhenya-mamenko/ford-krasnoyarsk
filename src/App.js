@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Header from './Header';
 import Cover from './Cover';
 import Info from './Info';
+import Contacts from './Contacts';
 import cover_image from './i/cover.jpg';
 
 class App extends Component {
@@ -16,7 +17,8 @@ class App extends Component {
 					col2: <span>Широкий выбор автомобилей в наличии</span>,
 					col3: <span>Специальные выгоды по программе Трейд-ин</span>,
 					additional: <h3>Количество автомобилей ограничено!</h3>,
-				} } />
+					} } />
+				<Contacts />
 			</div>
 		);
 	}

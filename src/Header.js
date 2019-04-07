@@ -21,7 +21,7 @@ const Header = () => (
 							<a href="#order-call" className="order-button">Заказать звонок</a>
 					</div>
 					<div className="header-phone col-lg-3 col-md-3 col-sm-5 ">
-							<div className="header-phone-number">+7 (391) 205-45-15</div>
+							<div className="header-phone-number"><a href="tel:+73912054515">+7 (391) 205-45-15</a></div>
 							<div className="header-phone-address">г. Красноярск, ул. Партизана Железняка, 46 &laquo;Д&raquo;</div>
 					</div>
 				</div>
