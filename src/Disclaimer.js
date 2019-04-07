@@ -13,5 +13,4 @@ const Disclaimer = ({ children }) => (
 	</div>
 );
 
-
 export default Disclaimer;

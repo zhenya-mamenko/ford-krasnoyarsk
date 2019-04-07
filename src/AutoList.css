@@ -19,11 +19,6 @@ div.autolist-block-menu a {
 	line-height: 45px;
 }
 
-.menu-link-select {
-	color: #941A13;
-	text-decoration: underline;
-}
-
 div.autolist-block-filterlink {
 	margin-top: 0px;
 	text-transform: uppercase;
@@ -39,11 +34,6 @@ div.autolist-block-filterlink a {
 div.autolist-block-filterlink a:hover {
 	color: #941A13;
 	text-decoration:none;
-}
-
-.filterlink-link-select {
-	background: url(/i/ico-acc.png) left top no-repeat;
-	color: #941A13;
 }
 
 div.autolist-block-logo {
