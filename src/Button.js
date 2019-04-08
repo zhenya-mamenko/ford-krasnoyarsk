@@ -7,7 +7,7 @@ const Button = ({ caption, link }) => (
 );
 
 Button.propTypes = {
-	caption: PropTypes.string.isRequired,
+	caption: PropTypes.any.isRequired,
 	link: PropTypes.string.isRequired,
 };
 
