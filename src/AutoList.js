@@ -48,7 +48,7 @@ class AutoList extends React.Component {
 
 	handleModel(e, model) {
 		e.preventDefault();
-		this.setState({ model });
+		this.setState({ model: (this.state.model !== model) ? model : "" });
 	}
 
 	render() {

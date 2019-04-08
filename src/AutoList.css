@@ -19,6 +19,10 @@ div.autolist-block-menu a {
 	line-height: 45px;
 }
 
+div.autolist-block-menu a:active, div.autolist-block-menu a:hover {
+	text-decoration: none;
+}
+
 div.autolist-block-filterlink {
 	margin-top: 0px;
 	text-transform: uppercase;
