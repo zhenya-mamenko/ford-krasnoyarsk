@@ -93,28 +93,6 @@ a:hover {
 	color: #a12426
 }
 
-a.order-button {
-	font-weight: bold;
-	text-decoration: none;
-	border-radius: 3px;
-	display:block;
-	background-color: #941A13;
-	color: #fff;
-	width: 100%;
-	padding: 10px;
-	text-align: center;
-	font-size: 14px;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	line-height: 27px;
-}
-
-a.order-button:hover {
-	text-decoration: none;
-	background-color: #1b9e33;
-	transition: background-color 0.5s;
-}
-
 @media (max-width: 768px) {
 
 	h1 {

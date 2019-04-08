@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './Cover.css';
 
-const Cover = ({ image }) => (
+const Cover = ({ button, image }) => (
 	<div>
 		<div className="band cover-block">
 			<img src={image} alt="" />
@@ -10,7 +10,7 @@ const Cover = ({ image }) => (
 		<div className="cover-btn">
 			<div className="container">
 				<div className="col-md-6 col-sm-8 col-xs-12 offset-md-3 offset-sm-2">
-					<a href="#order-call" className="order-button">ПОЛУЧИТЬ ФИНАЛЬНУЮ ВЫГОДУ НА FORD</a>
+					{button}
 				</div>
 			</div>
 		</div>
@@ -18,6 +18,7 @@ const Cover = ({ image }) => (
 );
 
 Cover.propTypes = {
+	button: PropTypes.element.isRequired,
 	image: PropTypes.string.isRequired,
 };
 
