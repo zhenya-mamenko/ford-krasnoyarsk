@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from './Header';
+import Button from './Button';
 import Cover from './Cover';
 import Info from './Info';
 import Contacts from './Contacts';
@@ -13,7 +14,10 @@ class App extends Component {
 		return (
 			<div>
 				<Header />
-				<Cover image={cover_image} />
+				<Cover
+					image={cover_image} 
+					button={ <Button link="#order-call" caption="ПОЛУЧИТЬ ФИНАЛЬНУЮ ВЫГОДУ НА FORD" /> }
+				/>
 				<Info strings={ {
 					header: <h2>ЛИКВИДАЦИЯ СКЛАДА АВТОМОБИЛЕЙ<br className="d-none d-lg-block" /> FORD В&nbsp;КРАСНОЯРСКЕ!</h2>,
 					col1: <span>Скидка до 585 000 руб.<sup>*</sup></span>,
@@ -24,7 +28,7 @@ class App extends Component {
 				<AutoList
 					header={ <h2>УСПЕЙТЕ ЗАБРАТЬ СВОЙ НОВЫЙ FORD НА БЕСПРЕЦЕДЕНТНЫХ УСЛОВИЯХ:</h2> }
 				/>
-				<SimpleInfo 
+				<SimpleInfo
 					header={ <h2>ОСТАВЬТЕ ЗАЯВКУ НА ОЦЕНКУ СТАРОГО АВТОМОБИЛЯ</h2> }
 					info={
 						<span>
@@ -33,6 +37,7 @@ class App extends Component {
 							—&nbsp;&nbsp;Бесплатная оценка за 15 минут
 						</span>
 					}
+					button={ <Button link="#order-call" caption="ОСТАВИТЬ ЗАЯВКУ" /> }
 				/>
 				<Contacts />
 				<Disclaimer>

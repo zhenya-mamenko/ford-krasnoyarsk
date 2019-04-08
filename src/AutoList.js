@@ -2,6 +2,7 @@ import React from 'react';
 import 'abortcontroller-polyfill/dist/abortcontroller-polyfill-only';
 import FilterLink from './FilterLink';
 import ModelLink from './ModelLink';
+import List from './List';
 import logo_ford from './i/logo-ford.png';
 import './AutoList.css';
 
@@ -75,6 +76,9 @@ class AutoList extends React.Component {
 								</div>
 							</div>
 						</div>
+					</div>
+					<div className="row">
+						<List items={ [] } />
 					</div>
 				</div>
 			</div>
