@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './List.css';
 import Card from './Card';
+import ReactHtmlParser from 'react-html-parser';
 
 const List = ({ items }) => (
 	<div className="col-12">
@@ -11,13 +12,11 @@ const List = ({ items }) => (
 					key={ "card" + i }
 					image={ e.image }
 					name={ e.name }
-					description={ e.description }
+					description={ ReactHtmlParser(e.description) }
 					buttons={ e.buttons }
 				>
 					{ e.gift !== false ?
-						[<React.Fragment>,
-						e.gift,
-						</React.Fragment>]
+						ReactHtmlParser("<React.Fragment>" + e.gift.join("\n") + "</React.Fragment>")
 						: false
 					}
 				</Card>

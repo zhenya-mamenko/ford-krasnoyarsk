@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 import React from 'react';
 import PropTypes from 'prop-types';
+import ReactHtmlParser from 'react-html-parser';
 import $ from 'jquery';
 import Button from "./Button";
 import './Card.css';
@@ -47,7 +48,7 @@ class Card extends React.Component {
 						{ this.props.description }
 					</div>
 					{ this.props.buttons.map((b, i) => <div key={ b.type + i } className={ b.type === "benefit" ? "col-12 autolist-item-benefit" : "col-12 autolist-item-price" }>
-						<Button caption={ b.caption } link={ b.link } /></div> ) }
+						<Button caption={ ReactHtmlParser(b.caption) } link={ b.link } /></div> ) }
 				</div>
 			</div>
 		);

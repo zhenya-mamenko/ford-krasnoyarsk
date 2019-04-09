@@ -11,7 +11,7 @@ class AutoList extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			model: 'Kuga',
+			model: '',
 			filter: {
 				"АКПП": true,
 				"МКПП": true,
@@ -23,12 +23,13 @@ class AutoList extends React.Component {
 		this.isUnmount = false;
 		this.controller = new AbortController();
 		this.signal = this.controller.signal;
+		this.filter = this.filter.bind(this);
 		this.handleFilter = this.handleFilter.bind(this);
 		this.handleModel = this.handleModel.bind(this);
 	}
 
 	componentDidMount() {
-		
+		this.loadItems();
 	}
 
 	componentWillUnmount() {
@@ -37,6 +38,51 @@ class AutoList extends React.Component {
 			this.controller.abort();
 		this.signal = undefined;
 		this.controller = undefined;
+	}
+
+	filter(items) {
+		let result = [];
+		items.map(e => {
+			if ((this.state.model === '' || e.model === this.state.model) &&
+				(!(this.state.filter["АКПП"] ^ this.state.filter["МКПП"]) || this.state.filter[e.gear])
+				)
+				result.push(e);
+			return (e);
+		});
+		return (result);
+	}
+
+	loadItems() {
+		if (!this.isUnmount) {
+			this.setState({
+				items: [],
+				isLoaded: false,
+			});
+		}
+		fetch("/cars.json", { signal: this.signal })
+			.then(res => res.json())
+			.then(
+				(result) => {
+					this.signal = undefined;
+					this.controller = undefined;
+					if (!this.isUnmount) {
+						this.setState({
+							isLoaded: true,
+							items: result.cars ? result.cars : [],
+						});
+					}
+				},
+				(error) => {
+					this.signal = undefined;
+					this.controller = undefined;
+					if (!this.isUnmount) {
+						this.setState({
+							isLoaded: true,
+							error,
+						});
+					}
+				},
+			);
 	}
 
 	handleFilter(e, text) {
@@ -78,7 +124,7 @@ class AutoList extends React.Component {
 						</div>
 					</div>
 					<div className="row">
-						<List items={ [] } />
+						<List items={ this.filter(this.state.items) } />
 					</div>
 				</div>
 			</div>
