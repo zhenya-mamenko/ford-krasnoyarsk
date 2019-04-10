@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-has-content */
 import React, { Component } from 'react';
 import $ from 'jquery';
 import Header from './Header';
@@ -92,10 +93,12 @@ class App extends Component {
 					col3: <span>Специальные выгоды по программе Трейд-ин</span>,
 					additional: <h3>Количество автомобилей ограничено!</h3>,
 					} } />
+				<a name="autolist" href="#autolist"></a>
 				<AutoList
 					header={ <h2>УСПЕЙТЕ ЗАБРАТЬ СВОЙ НОВЫЙ FORD НА БЕСПРЕЦЕДЕНТНЫХ УСЛОВИЯХ:</h2> }
 					onButtonClick={ this.handleOrderClick }
 				/>
+				<a name="estimate" href="#estimate"></a>
 				<SimpleInfo
 					header={ <h2>ОСТАВЬТЕ ЗАЯВКУ НА ОЦЕНКУ СТАРОГО АВТОМОБИЛЯ</h2> }
 					info={
@@ -107,6 +110,7 @@ class App extends Component {
 					}
 					button={ <AButton link="#order-call" caption="ОСТАВИТЬ ЗАЯВКУ" /> }
 				/>
+				<a name="contacts" href="#contacts"></a>
 				<Contacts />
 				<Disclaimer>
 					<p>
