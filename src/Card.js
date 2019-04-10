@@ -3,7 +3,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import ReactHtmlParser from 'react-html-parser';
 import $ from 'jquery';
-import Button from "./Button";
+import AButton from "./AButton";
 import './Card.css';
 
 class Card extends React.Component {
@@ -48,7 +48,7 @@ class Card extends React.Component {
 						{ this.props.description }
 					</div>
 					{ this.props.buttons.map((b, i) => <div key={ b.type + i } className={ b.type === "benefit" ? "col-12 autolist-item-benefit" : "col-12 autolist-item-price" }>
-						<Button caption={ ReactHtmlParser(b.caption) } link={ b.link } /></div> ) }
+						<AButton caption={ ReactHtmlParser(b.caption) } link={ b.link } /></div> ) }
 				</div>
 			</div>
 		);
@@ -57,7 +57,7 @@ class Card extends React.Component {
 
 Card.propTypes = {
 	buttons: PropTypes.array.isRequired,
-	description: PropTypes.element.isRequired,
+	description: PropTypes.any.isRequired,
 	image: PropTypes.string.isRequired,
 	name: PropTypes.string.isRequired,
 };

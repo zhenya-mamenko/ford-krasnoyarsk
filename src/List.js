@@ -16,7 +16,7 @@ const List = ({ items }) => (
 					buttons={ e.buttons }
 				>
 					{ e.gift !== false ?
-						ReactHtmlParser("<React.Fragment>" + e.gift.join("\n") + "</React.Fragment>")
+						ReactHtmlParser("<div>" + e.gift.join("\n") + "</div>")
 						: false
 					}
 				</Card>

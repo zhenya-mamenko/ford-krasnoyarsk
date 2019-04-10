@@ -1,15 +1,41 @@
 import React, { Component } from 'react';
 import Header from './Header';
-import Button from './Button';
+import AButton from './AButton';
 import Cover from './Cover';
 import Info from './Info';
 import Contacts from './Contacts';
 import Disclaimer from './Disclaimer';
 import SimpleInfo from './SimpleInfo';
 import AutoList from './AutoList';
+import { Modal, Button } from 'react-bootstrap';
+import $ from 'jquery';
 import cover_image from './i/cover.jpg';
 
 class App extends Component {
+
+	constructor(props) {
+		super(props);
+		this.state = {
+			showModal: false,
+			modalCaption: "Оставить заявку"
+		};
+	}
+
+	componentDidMount() {
+		$("a[href='#order-link']").click(e => {
+			e.preventDefault();
+			let a = $(e.target);
+			this.setState({
+				showModal: true,
+				modalCaption: a.text(),
+			});
+		});
+	}
+
+	handleModalClose() {
+		this.setState({ showModal: false });
+	}
+
 	render() {
 		return (
 			<div>
@@ -37,7 +63,7 @@ class App extends Component {
 							—&nbsp;&nbsp;Бесплатная оценка за 15 минут
 						</span>
 					}
-					button={ <Button link="#order-call" caption="ОСТАВИТЬ ЗАЯВКУ" /> }
+					button={ <AButton link="#order-call" caption="ОСТАВИТЬ ЗАЯВКУ" /> }
 				/>
 				<Contacts />
 				<Disclaimer>
@@ -57,6 +83,17 @@ class App extends Component {
 						<br />Также подробности можно уточнить по тел. (391) 205-45-15 в рабочее время автосалона «Форд Центр Редут».
 					</p>
 				</Disclaimer>
+				<Modal show={this.state.showModal} onHide={this.handleModalClose}>
+					<Modal.Header closeButton>
+						<Modal.Title>{ this.modalCaption }</Modal.Title>
+					</Modal.Header>
+					<Modal.Body>Оставьте Ваши контактные данные, и мененеджер автосалона &laquo;ФЦ-Редут&raquo; свяжется с Вами в ближайшее время!</Modal.Body>
+					<Modal.Footer>
+						<Button variant="primary" onClick={this.handleClose}>
+							Отправить
+						</Button>
+					</Modal.Footer>
+				</Modal>
 			</div>
 		);
 	}

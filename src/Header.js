@@ -1,7 +1,7 @@
 import React from 'react';
 import logo_ford from './i/logo-ford.png';
 import logo_redut from './i/logo-redut.png';
-import Button from "./Button";
+import AButton from "./AButton";
 import './Header.css';
 
 const Header = () => (
@@ -19,7 +19,7 @@ const Header = () => (
 						<h3>ООО &laquo;ФЦ-РЕДУТ&raquo;</h3>
 					</div>
 					<div className="header-btn col-lg-3 col-md-3 col-sm-2 hidden-sm">
-						<Button link="#order-call" caption="Заказать звонок" />
+						<AButton link="#order-call" caption="Заказать звонок" />
 					</div>
 					<div className="header-phone col-lg-3 col-md-3 col-sm-5 ">
 						<div className="header-phone-number"><a href="tel:+73912054515">+7 (391) 205-45-15</a></div>
