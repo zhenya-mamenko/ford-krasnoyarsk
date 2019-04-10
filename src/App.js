@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import $ from 'jquery';
 import Header from './Header';
 import AButton from './AButton';
 import Cover from './Cover';
@@ -7,8 +8,7 @@ import Contacts from './Contacts';
 import Disclaimer from './Disclaimer';
 import SimpleInfo from './SimpleInfo';
 import AutoList from './AutoList';
-import { Modal, Button } from 'react-bootstrap';
-import $ from 'jquery';
+import { Modal, Button, Container, Row, Col, Form } from 'react-bootstrap';
 import cover_image from './i/cover.jpg';
 
 class App extends Component {
@@ -19,16 +19,22 @@ class App extends Component {
 			showModal: false,
 			modalCaption: "Оставить заявку"
 		};
+		this.handleModalClose = this.handleModalClose.bind(this);
+		this.handleOrderClick = this.handleOrderClick.bind(this);
 	}
 
 	componentDidMount() {
-		$("a[href='#order-link']").click(e => {
-			e.preventDefault();
-			let a = $(e.target);
-			this.setState({
-				showModal: true,
-				modalCaption: a.text(),
-			});
+		$("a[href='#order-call']").click(e => {
+			this.handleOrderClick(e);
+		});
+	}
+
+	handleOrderClick(e) {
+		e.preventDefault();
+		let h = $(e.target).html();
+		this.setState({
+			modalCaption: h.indexOf("<") !== -1 ? h.substr(0, h.indexOf("<")) : h,
+			showModal: true,
 		});
 	}
 
@@ -42,7 +48,7 @@ class App extends Component {
 				<Header />
 				<Cover
 					image={cover_image} 
-					button={ <Button link="#order-call" caption="ПОЛУЧИТЬ ФИНАЛЬНУЮ ВЫГОДУ НА FORD" /> }
+					button={ <AButton link="#order-call" caption="ПОЛУЧИТЬ ФИНАЛЬНУЮ ВЫГОДУ НА FORD" /> }
 				/>
 				<Info strings={ {
 					header: <h2>ЛИКВИДАЦИЯ СКЛАДА АВТОМОБИЛЕЙ<br className="d-none d-lg-block" /> FORD В&nbsp;КРАСНОЯРСКЕ!</h2>,
@@ -53,6 +59,7 @@ class App extends Component {
 					} } />
 				<AutoList
 					header={ <h2>УСПЕЙТЕ ЗАБРАТЬ СВОЙ НОВЫЙ FORD НА БЕСПРЕЦЕДЕНТНЫХ УСЛОВИЯХ:</h2> }
+					onButtonClick={ this.handleOrderClick }
 				/>
 				<SimpleInfo
 					header={ <h2>ОСТАВЬТЕ ЗАЯВКУ НА ОЦЕНКУ СТАРОГО АВТОМОБИЛЯ</h2> }
@@ -83,13 +90,43 @@ class App extends Component {
 						<br />Также подробности можно уточнить по тел. (391) 205-45-15 в рабочее время автосалона «Форд Центр Редут».
 					</p>
 				</Disclaimer>
-				<Modal show={this.state.showModal} onHide={this.handleModalClose}>
+				<Modal
+					show={this.state.showModal}
+					onHide={this.handleModalClose}
+					centered
+					aria-labelledby="contained-modal-title-vcenter"
+				>
 					<Modal.Header closeButton>
-						<Modal.Title>{ this.modalCaption }</Modal.Title>
+						<Modal.Title>{ this.state.modalCaption }</Modal.Title>
 					</Modal.Header>
-					<Modal.Body>Оставьте Ваши контактные данные, и мененеджер автосалона &laquo;ФЦ-Редут&raquo; свяжется с Вами в ближайшее время!</Modal.Body>
+					<Modal.Body>
+						<Container>
+							<Row>
+								<Col>
+									<p>Оставьте Ваши контактные данные, и мененеджер автосалона &laquo;ФЦ-Редут&raquo; свяжется с Вами в ближайшее время!</p>
+								</Col>
+							</Row>
+							<Row>
+								<Col>
+									<Form>
+										<Form.Group controlId="formPhone">
+											<Form.Label>Ваш телефон:</Form.Label>
+											<Form.Control type="phone" placeholder="+7 (987) 123-45-60" />
+											<Form.Text className="text-muted">
+												Пожалуйста, вводите телефон в полном формате
+											</Form.Text>
+										</Form.Group>
+										<Form.Group controlId="formPhone">
+											<Form.Label>Ваше имя:</Form.Label>
+											<Form.Control type="text" placeholder="" />
+										</Form.Group>
+									</Form>
+								</Col>
+							</Row>
+						</Container>
+					</Modal.Body>
 					<Modal.Footer>
-						<Button variant="primary" onClick={this.handleClose}>
+						<Button variant="primary" onClick={this.handleModalClose}>
 							Отправить
 						</Button>
 					</Modal.Footer>

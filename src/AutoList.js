@@ -1,5 +1,6 @@
 import React from 'react';
 import 'abortcontroller-polyfill/dist/abortcontroller-polyfill-only';
+import $ from 'jquery';
 import FilterLink from './FilterLink';
 import ModelLink from './ModelLink';
 import List from './List';
@@ -49,6 +50,11 @@ class AutoList extends React.Component {
 				result.push(e);
 			return (e);
 		});
+		setTimeout(() => {
+			$("a[href='#order-link']").click(e => {
+				this.props.onButtonClick(e);
+			});
+		}, 1000);
 		return (result);
 	}
 
