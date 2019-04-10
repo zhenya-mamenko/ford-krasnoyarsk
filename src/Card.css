@@ -42,6 +42,7 @@ div.autolist-item-detail-left-hide {
 	border-radius: 3px;
 	box-shadow: 0 0 25px 2px #dddddd;
 	padding: 20px;
+	min-width: 100%;
 }
 
 div.autolist-item-detail-left-hide p {

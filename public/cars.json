@@ -21,6 +21,485 @@
 				{ "type": "benefit", "caption": "<span>Выгода до 250 000 руб.<sup>2</sup></span>", "link": "#order-link" },
 				{ "type": "price", "caption": "<span>ПОЛУЧИТЬ СПЕЦПРЕДЛОЖЕНИЕ</span>", "link": "#order-link" }
 			]
+		},
+		{
+			"name": "Ford Kuga Ambiente",
+			"model": "Kuga",
+			"image": "/i/cars/kuga/kuga-2.jpg",
+			"description": "Цвет:&nbsp;&nbsp;серебристый<br />Двигатель:&nbsp;&nbsp;1.5 л<br />Коробка:&nbsp;&nbsp;автоматическая",
+			"gear": "АКПП",
+			"gift": false,
+			"buttons": [
+				{ "type": "benefit", "caption": "<span>Выгода до 250 000 руб.<sup>2</sup></span>", "link": "#order-link" },
+				{ "type": "price", "caption": "<span>ПОЛУЧИТЬ СПЕЦПРЕДЛОЖЕНИЕ</span>", "link": "#order-link" }
+			]
+		},
+		{
+			"name": "Ford Kuga Ambiente",
+			"model": "Kuga",
+			"image": "/i/cars/kuga/kuga-3.jpg",
+			"description": "Цвет:&nbsp;&nbsp;черный металлик<br />Двигатель:&nbsp;&nbsp;2.5 л<br />Коробка:&nbsp;&nbsp;автоматическая",
+			"gear": "АКПП",
+			"gift": [
+				"<p>Дополнительное<br />оборудование</p>",
+				"<b>Пакет &laquo;Комфорт&raquo;: </b>",
+				"<ul>",
+					"<li>Электроподогрев передних сидений</li>",
+					"<li>Электрообогрев лобового стекла и зоны покоя стеклоочистителей</li>",
+					"<li>Электрообогрев рулевого колеса</li>",
+					"<li>2-зонный климат-контроль</li>",
+					"<li>Электронный стояночный тормоз</li>",
+				"</ul>"
+			],
+			"buttons": [
+				{ "type": "benefit", "caption": "<span>Выгода до 250 000 руб.<sup>2</sup></span>", "link": "#order-link" },
+				{ "type": "price", "caption": "<span>ПОЛУЧИТЬ СПЕЦПРЕДЛОЖЕНИЕ</span>", "link": "#order-link" }
+			]
+		},
+		{
+			"name": "Ford Kuga Ambiente",
+			"model": "Kuga",
+			"image": "/i/cars/kuga/kuga-4.jpg",
+			"description": "Цвет:&nbsp;&nbsp;серебристый<br />Двигатель:&nbsp;&nbsp;1.5 л<br />Коробка:&nbsp;&nbsp;автоматическая",
+			"gear": "АКПП",
+			"gift": false,
+			"buttons": [
+				{ "type": "benefit", "caption": "<span>Выгода до 250 000 руб.<sup>2</sup></span>", "link": "#order-link" },
+				{ "type": "price", "caption": "<span>ПОЛУЧИТЬ СПЕЦПРЕДЛОЖЕНИЕ</span>", "link": "#order-link" }
+			]
+		},
+		{
+			"name": "Ford Kuga Ambiente",
+			"model": "Kuga",
+			"image": "/i/cars/kuga/kuga-5.jpg",
+			"description": "Цвет:&nbsp;&nbsp;синий металлик<br />Двигатель:&nbsp;&nbsp;2.5 л<br />Коробка:&nbsp;&nbsp;автоматическая",
+			"gear": "АКПП",
+			"gift": [
+				"<p>Дополнительное<br />оборудование</p>",
+				"<b>Пакет &laquo;Комфорт&raquo;: </b>",
+				"<ul>",
+					"<li>Электроподогрев передних сидений</li>",
+					"<li>Электрообогрев лобового стекла и зоны покоя стеклоочистителей</li>",
+					"<li>Электрообогрев рулевого колеса</li>",
+					"<li>2-зонный климат-контроль</li>",
+					"<li>Электронный стояночный тормоз</li>",
+				"</ul>"
+			],
+			"buttons": [
+				{ "type": "benefit", "caption": "<span>Выгода до 250 000 руб.<sup>2</sup></span>", "link": "#order-link" },
+				{ "type": "price", "caption": "<span>ПОЛУЧИТЬ СПЕЦПРЕДЛОЖЕНИЕ</span>", "link": "#order-link" }
+			]
+		},
+		{
+			"name": "Ford Kuga Ambiente",
+			"model": "Kuga",
+			"image": "/i/cars/kuga/kuga-6.jpg",
+			"description": "Цвет:&nbsp;&nbsp;белый<br />Двигатель:&nbsp;&nbsp;2.5 л<br />Коробка:&nbsp;&nbsp;автоматическая",
+			"gear": "АКПП",
+			"gift": [
+				"<p>Дополнительное<br />оборудование</p>",
+				"<b>Пакет &laquo;Комфорт&raquo;: </b>",
+				"<ul>",
+					"<li>Электроподогрев передних сидений</li>",
+					"<li>Электрообогрев лобового стекла и зоны покоя стеклоочистителей</li>",
+					"<li>Электрообогрев рулевого колеса</li>",
+					"<li>2-зонный климат-контроль</li>",
+					"<li>Электронный стояночный тормоз</li>",
+				"</ul>"
+			],
+			"buttons": [
+				{ "type": "benefit", "caption": "<span>Выгода до 250 000 руб.<sup>2</sup></span>", "link": "#order-link" },
+				{ "type": "price", "caption": "<span>ПОЛУЧИТЬ СПЕЦПРЕДЛОЖЕНИЕ</span>", "link": "#order-link" }
+			]
+		},
+		{
+			"name": "Ford Kuga Trend Plus",
+			"model": "Kuga",
+			"image": "/i/cars/kuga/kuga-7.jpg",
+			"description": "Цвет:&nbsp;&nbsp;синий металлик<br />Двигатель:&nbsp;&nbsp;2.5 л<br />Коробка:&nbsp;&nbsp;автоматическая",
+			"gear": "АКПП",
+			"gift": [
+				"<p>Дополнительное<br />оборудование</p>",
+				"<b>Радиопакет №6:</b>",
+				"<ul>",
+						"<li>Аудиосистема с CD/MP3-проигрывателем и AM/FM-радио</li>",
+						"<li>&quot;ЖК-дисплей</li>",
+						"<li>2 USB-порта</li>",
+						"<li>6 динамиков</li>",
+						"<li>Усовершенствованная мультимедийная система SYNC 3 c  Bluetooth, голосовым управлением на русском языке, функцией AppLink и поддержкой AppleCarPlay и AndroidAuto</li>",
+						"<li>Кнопки дистанционного управления на рулевом колесе</li>",
+						"<li>4,2&quot; ЖК-дисплей на приборной панели</li>",
+				"</ul>",
+				"<b>Пакет &laquo;Городской 1&raquo;: </b>",
+				"<ul>",
+						"<li>Задние датчики парковки</li>",
+						"<li>Электропривод складывания боковых зеркал</li>",
+						"<li>Система открывания багажника &laquo;hands-free&raquo;</li>",
+						"<li>Система бесключевого доступа в автомобиль &laquo;KeylessEntry&raquo;</li>",
+						"<li>Электропривод задней двери</li>",
+				"</ul>"
+			],
+			"buttons": [
+				{ "type": "benefit", "caption": "<span>Выгода до 275 000 руб.<sup>3</sup></span>", "link": "#order-link" },
+				{ "type": "price", "caption": "<span>ПОЛУЧИТЬ СПЕЦПРЕДЛОЖЕНИЕ</span>", "link": "#order-link" }
+			]
+		},
+		{
+			"name": "Ford Kuga Trend Plus",
+			"model": "Kuga",
+			"image": "/i/cars/kuga/kuga-8.jpg",
+			"description": "Цвет:&nbsp;&nbsp;белый<br />Двигатель:&nbsp;&nbsp;1.5 л<br />Коробка:&nbsp;&nbsp;автоматическая",
+			"gear": "АКПП",
+			"gift": [
+				"<p>Дополнительное<br />оборудование</p>",
+				"<b>Радиопакет №6:</b>",
+				"<ul>",
+						"<li>Аудиосистема с CD/MP3-проигрывателем и AM/FM-радио</li>",
+						"<li>&quot;ЖК-дисплей</li>",
+						"<li>2 USB-порта</li>",
+						"<li>6 динамиков</li>",
+						"<li>Усовершенствованная мультимедийная система SYNC 3 c  Bluetooth, голосовым управлением на русском языке, функцией AppLink и поддержкой AppleCarPlay и AndroidAuto</li>",
+						"<li>Кнопки дистанционного управления на рулевом колесе</li>",
+						"<li>4,2&quot; ЖК-дисплей на приборной панели</li>",
+				"</ul>",
+				"<b>Пакет &laquo;Городской 1&raquo;: </b>",
+				"<ul>",
+						"<li>Задние датчики парковки</li>",
+						"<li>Электропривод складывания боковых зеркал</li>",
+						"<li>Система открывания багажника &laquo;hands-free&raquo;</li>",
+						"<li>Система бесключевого доступа в автомобиль &laquo;KeylessEntry&raquo;</li>",
+						"<li>Электропривод задней двери</li>",
+				"</ul>"
+			],
+			"buttons": [
+				{ "type": "benefit", "caption": "<span>Выгода до 275 000 руб.<sup>3</sup></span>", "link": "#order-link" },
+				{ "type": "price", "caption": "<span>ПОЛУЧИТЬ СПЕЦПРЕДЛОЖЕНИЕ</span>", "link": "#order-link" }
+			]
+		},
+		{
+			"name": "Ford Kuga Trend Plus",
+			"model": "Kuga",
+			"image": "/i/cars/kuga/kuga-9.jpg",
+			"description": "Цвет:&nbsp;&nbsp;синий металлик<br />Двигатель:&nbsp;&nbsp;2.5 л<br />Коробка:&nbsp;&nbsp;автоматическая",
+			"gear": "АКПП",
+			"gift": [
+				"<p>Дополнительное<br />оборудование</p>",
+				"<b>Радиопакет №6:</b>",
+				"<ul>",
+						"<li>Аудиосистема с CD/MP3-проигрывателем и AM/FM-радио</li>",
+						"<li>&quot;ЖК-дисплей</li>",
+						"<li>2 USB-порта</li>",
+						"<li>6 динамиков</li>",
+						"<li>Усовершенствованная мультимедийная система SYNC 3 c  Bluetooth, голосовым управлением на русском языке, функцией AppLink и поддержкой AppleCarPlay и AndroidAuto</li>",
+						"<li>Кнопки дистанционного управления на рулевом колесе</li>",
+						"<li>4,2&quot; ЖК-дисплей на приборной панели</li>",
+				"</ul>"
+			],
+			"buttons": [
+				{ "type": "benefit", "caption": "<span>Выгода до 270 000 руб.<sup>4</sup></span>", "link": "#order-link" },
+				{ "type": "price", "caption": "<span>ПОЛУЧИТЬ СПЕЦПРЕДЛОЖЕНИЕ</span>", "link": "#order-link" }
+			]
+		},
+		{
+			"name": "Ford Kuga Trend Plus",
+			"model": "Kuga",
+			"image": "/i/cars/kuga/kuga-10.jpg",
+			"description": "Цвет:&nbsp;&nbsp;серебристый<br />Двигатель:&nbsp;&nbsp;1.5 л<br />Коробка:&nbsp;&nbsp;автоматическая",
+			"gear": "АКПП",
+			"gift": [
+				"<p>Дополнительное<br />оборудование</p>",
+				"<b>Радиопакет №6:</b>",
+				"<ul>",
+						"<li>Аудиосистема с CD/MP3-проигрывателем и AM/FM-радио</li>",
+						"<li>&quot;ЖК-дисплей</li>",
+						"<li>2 USB-порта</li>",
+						"<li>6 динамиков</li>",
+						"<li>Усовершенствованная мультимедийная система SYNC 3 c  Bluetooth, голосовым управлением на русском языке, функцией AppLink и поддержкой AppleCarPlay и AndroidAuto</li>",
+						"<li>Кнопки дистанционного управления на рулевом колесе</li>",
+						"<li>4,2&quot; ЖК-дисплей на приборной панели</li>",
+				"</ul>"
+			],
+			"buttons": [
+				{ "type": "benefit", "caption": "<span>Выгода до 275 000 руб.<sup>3</sup></span>", "link": "#order-link" },
+				{ "type": "price", "caption": "<span>ПОЛУЧИТЬ СПЕЦПРЕДЛОЖЕНИЕ</span>", "link": "#order-link" }
+			]
+		},
+		{
+			"name": "Ford Kuga Trend",
+			"model": "Kuga",
+			"image": "/i/cars/kuga/kuga-11.jpg",
+			"description": "Цвет:&nbsp;&nbsp;черный<br />Двигатель:&nbsp;&nbsp;2.5 л<br />Коробка:&nbsp;&nbsp;автоматическая",
+			"gear": "АКПП",
+			"gift": [
+				"<p>Дополнительное<br />оборудование</p>",
+				"<b>Пакет &laquo;Комфорт&raquo;: </b>",
+				"<ul>",
+					"<li>Электроподогрев передних сидений</li>",
+					"<li>Электрообогрев лобового стекла и зоны покоя стеклоочистителей</li>",
+					"<li>Электрообогрев рулевого колеса</li>",
+					"<li>2-зонный климат-контроль</li>",
+					"<li>Электронный стояночный тормоз</li>",
+				"</ul>"
+			],
+			"buttons": [
+				{ "type": "benefit", "caption": "<span>Выгода до 260 000 руб.<sup>6</sup></span>", "link": "#order-link" },
+				{ "type": "price", "caption": "<span>ПОЛУЧИТЬ СПЕЦПРЕДЛОЖЕНИЕ</span>", "link": "#order-link" }
+			]
+		},
+		{
+			"name": "Ford Kuga Titanium",
+			"model": "Kuga",
+			"image": "/i/cars/kuga/kuga-12.jpg",
+			"description": "Цвет:&nbsp;&nbsp;черный<br />Двигатель:&nbsp;&nbsp;1.5 л<br />Коробка:&nbsp;&nbsp;автоматическая",
+			"gear": "АКПП",
+			"gift": [
+				"<p>Дополнительное<br />оборудование</p>",
+				"<b>Пакет &laquo;Titanium Премиум&raquo;: </b>",
+				"<ul>",
+					"<li>Адаптивные биксеноновые фары</li>",
+					"<li>Система открывания багажника &laquo;hands-free&raquo;</li>",
+					"<li>18&quot; 5-спицевые легкосплавные диски</li>",
+					"<li>Электропривод задней двери</li>",
+				"</ul>",
+				"<b>Пакет &laquo;Городской 2&raquo;: </b>",
+				"<ul>",
+					"<li>Усовершенствованная система активной помощи при парковке (APA)</li>",
+					"<li>Система открывания багажника &laquo;hands-free&raquo;</li>",
+					"<li>Передние и задние датчики парковки</li>",
+					"<li>Электропривод складывания боковых зеркал</li>",
+				"</ul>"
+			],
+			"buttons": [
+				{ "type": "benefit", "caption": "<span>Выгода до 260 000 руб.<sup>6</sup></span>", "link": "#order-link" },
+				{ "type": "price", "caption": "<span>ПОЛУЧИТЬ СПЕЦПРЕДЛОЖЕНИЕ</span>", "link": "#order-link" }
+			]
+		},
+		{
+			"name": "Ford Focus Trend Plus",
+			"model": "Focus",
+			"image": "/i/cars/focus/focus-1.jpg",
+			"description": "Цвет:&nbsp;&nbsp;синий<br />Двигатель:&nbsp;&nbsp;1.6 л<br />Коробка:&nbsp;&nbsp;механическая",
+			"gear": "МКПП",
+			"gift": [
+				"<p>Дополнительное<br />оборудование</p>",
+				"<b>Пакет &laquo;Городской 1&raquo;: </b>",
+				"<ul>",
+					"<li>Задние датчики парковки</li>",
+					"<li>Электропривод складывания боковых зеркал</li>",
+				"</ul>",
+				"<b>Пакет &laquo;Зимний 2&raquo;: </b>",
+				"<ul>",
+					"<li>Электрообогрев лобового стекла и форсунок стеклоомывателей</li>",
+					"<li>Электрообогрев рулевого колеса</li>",
+					"<li>Кожаная обивка рулевого колеса</li>",
+				"</ul>"
+			],
+			"buttons": [
+				{ "type": "benefit", "caption": "<span>Выгода до 230 000 руб.<sup>7</sup></span>", "link": "#order-link" },
+				{ "type": "price", "caption": "<span>ПОЛУЧИТЬ СПЕЦПРЕДЛОЖЕНИЕ</span>", "link": "#order-link" }
+			]
+		},
+		{
+			"name": "Ford Focus Trend Plus",
+			"model": "Focus",
+			"image": "/i/cars/focus/focus-2.jpg",
+			"description": "Цвет:&nbsp;&nbsp;черный<br />Двигатель:&nbsp;&nbsp;1.6 л<br />Коробка:&nbsp;&nbsp;автоматическая",
+			"gear": "АКПП",
+			"gift": [
+				"<p>Дополнительное<br />оборудование</p>",
+				"<b>Пакет &laquo;Комфорт&raquo;: </b>",
+				"<ul>",
+					"<li>Двухзонный климат-контроль</li>",
+					"<li>Авто-затемняющееся салонное зеркало заднего вида</li>",
+					"<li>Датчик света</li>",
+					"<li>Датчик дождя</li>",
+					"<li>Функция задержки выключения света &laquo;Followmehome&raquo;</li>",
+				"</ul>",
+				"<b>Пакет &laquo;Зимний 2&raquo;: </b>",
+				"<ul>",
+					"<li>Электрообогрев лобового стекла и форсунок стеклоомывателей</li>",
+					"<li>Электрообогрев рулевого колеса</li>",
+					"<li>Кожаная обивка рулевого колеса</li>",
+				"</ul>",
+				"<b>Радиопакет №28: </b>",
+				"<ul>",
+					"<li>Аудиосистема CD/MP3 + AM/FM, 6 динамиков</li>",
+					"<li>8&quot; сенсорный ЖК дисплей</li>",
+					"<li>2 USB-порта</li>",
+					"<li>Мультимедийная система SYNC 3, включая Bluetooth и голосовое управление на рус. яз., поддержку Apple Car Play и Android Auto</li>",
+					"<li>ЖК дисплей на приборной панели</li>",
+					"<li>Камера заднего вида</li>",
+				"</ul>"
+			],
+			"buttons": [
+				{ "type": "benefit", "caption": "<span>Выгода до 230 000 руб.<sup>7</sup></span>", "link": "#order-link" },
+				{ "type": "price", "caption": "<span>ПОЛУЧИТЬ СПЕЦПРЕДЛОЖЕНИЕ</span>", "link": "#order-link" }
+			]
+		},
+		{
+			"name": "Ford Focus Trend Plus",
+			"model": "Focus",
+			"image": "/i/cars/focus/focus-3.jpg",
+			"description": "Цвет:&nbsp;&nbsp;серебристый<br />Двигатель:&nbsp;&nbsp;1.6 л<br />Коробка:&nbsp;&nbsp;механическая",
+			"gear": "МКПП",
+			"gift": [
+				"<p>Дополнительное<br />оборудование</p>",
+				"<b>Радиопакет №28: </b>",
+				"<ul>",
+					"<li>Аудиосистема CD/MP3 + AM/FM, 6 динамиков</li>",
+					"<li>8&quot; сенсорный ЖК дисплей</li>",
+					"<li>2 USB-порта</li>",
+					"<li>Мультимедийная система SYNC 3, включая Bluetooth и голосовое управление на рус. яз., поддержку Apple Car Play и Android Auto</li>",
+					"<li>ЖК дисплей на приборной панели</li>",
+					"<li>Камера заднего вида</li>",
+				"</ul>"
+			],
+			"buttons": [
+				{ "type": "benefit", "caption": "<span>Выгода до 230 000 руб.<sup>7</sup></span>", "link": "#order-link" },
+				{ "type": "price", "caption": "<span>ПОЛУЧИТЬ СПЕЦПРЕДЛОЖЕНИЕ</span>", "link": "#order-link" }
+			]
+		},
+		{
+			"name": "Ford Focus Trend Plus",
+			"model": "Focus",
+			"image": "/i/cars/focus/focus-4.jpg",
+			"description": "Цвет:&nbsp;&nbsp;коричневый металлик<br />Двигатель:&nbsp;&nbsp;1.6 л<br />Коробка:&nbsp;&nbsp;автоматическая",
+			"gear": "АКПП",
+			"gift": [
+				"<p>Дополнительное<br />оборудование</p>",
+				"<b>Пакет &laquo;Зимний 2&raquo;: </b>",
+				"<ul>",
+					"<li>Электрообогрев лобового стекла и форсунок стеклоомывателей</li>",
+					"<li>Электрообогрев рулевого колеса</li>",
+					"<li>Кожаная обивка рулевого колеса</li>",
+				"</ul>",
+				"<b>Пакет &laquo;Комфорт&raquo;: </b>",
+				"<ul>",
+					"<li>Двухзонный климат-контроль</li>",
+					"<li>Авто-затемняющееся салонное зеркало заднего вида</li>",
+					"<li>Датчик света</li>",
+					"<li>Датчик дождя</li>",
+					"<li>Функция задержки выключения света &laquo;Followmehome&raquo;</li>",
+				"</ul>"
+			],
+			"buttons": [
+				{ "type": "benefit", "caption": "<span>Выгода до 230 000 руб.<sup>7</sup></span>", "link": "#order-link" },
+				{ "type": "price", "caption": "<span>ПОЛУЧИТЬ СПЕЦПРЕДЛОЖЕНИЕ</span>", "link": "#order-link" }
+			]
+		},
+		{
+			"name": "Ford Focus White And Black",
+			"model": "Focus",
+			"image": "/i/cars/focus/focus-5.jpg",
+			"description": "Цвет:&nbsp;&nbsp;коричневый металлик<br />Двигатель:&nbsp;&nbsp;1.6 л<br />Коробка:&nbsp;&nbsp;автоматическая",
+			"gear": "АКПП",
+			"gift": false,
+			"buttons": [
+				{ "type": "benefit", "caption": "<span>Выгода до 235 000 руб.<sup>8</sup></span>", "link": "#order-link" },
+				{ "type": "price", "caption": "<span>ПОЛУЧИТЬ СПЕЦПРЕДЛОЖЕНИЕ</span>", "link": "#order-link" }
+			]
+		},
+		{
+			"name": "Ford Focus Titanium",
+			"model": "Focus",
+			"image": "/i/cars/focus/focus-6.jpg",
+			"description": "Цвет:&nbsp;&nbsp;коричневый металлик<br />Двигатель:&nbsp;&nbsp;1.6 л<br />Коробка:&nbsp;&nbsp;автоматическая",
+			"gear": "АКПП",
+			"gift": [
+				"<p>Дополнительное<br />оборудование</p>",
+				"Серебристые рейлинги"
+			],
+			"buttons": [
+				{ "type": "benefit", "caption": "<span>Выгода до 235 000 руб.<sup>8</sup></span>", "link": "#order-link" },
+				{ "type": "price", "caption": "<span>ПОЛУЧИТЬ СПЕЦПРЕДЛОЖЕНИЕ</span>", "link": "#order-link" }
+			]
+		},
+		{
+			"name": "Ford EcoSport Trend Plus",
+			"model": "EcoSport",
+			"image": "/i/cars/ecosport/ecosport-1.jpg",
+			"description": "Цвет:&nbsp;&nbsp;серебристый<br />Двигатель:&nbsp;&nbsp;2.0 л<br />Коробка:&nbsp;&nbsp;автоматическая",
+			"gear": "АКПП",
+			"gift": [
+				"<p>Дополнительное<br />оборудование</p>",
+				"<ul>",
+					"<li>Аудиосистема AM/FM</li>",
+					"<li>Дистанционное управление на рулевом колесе</li>",
+					"<li>Мультимедийная система SYNC3, включая Bluetooth, голосовое управление на русском языке, функцию AppLink и поддержку AppleCarPlay и AndroidAuto</li>",
+					"<li>Цветной сенсорный дисплей 8.0&quot;</li>",
+					"<li>7 динамиков</li>",
+					"<li>2 x USB разъема</li>",
+				"</ul>"
+			],
+			"buttons": [
+				{ "type": "price", "caption": "<span>ПОЛУЧИТЬ СПЕЦПРЕДЛОЖЕНИЕ</span>", "link": "#order-link" }
+			]
+		},
+		{
+			"name": "Ford EcoSport Trend Plus",
+			"model": "EcoSport",
+			"image": "/i/cars/ecosport/ecosport-2.jpg",
+			"description": "Цвет:&nbsp;&nbsp;белый<br />Двигатель:&nbsp;&nbsp;2.0 л<br />Коробка:&nbsp;&nbsp;автоматическая",
+			"gear": "АКПП",
+			"gift": [
+				"<p>Дополнительное<br />оборудование</p>",
+				"<b>Пакет &laquo;Городской 1&raquo;: </b>",
+				"<ul>",
+					"<li>Темная тонировка задних стекол</li>",
+					"<li>Задние датчики парковки</li>",
+					"<li>Электропривод складывания боковых зеркал</li>",
+					"<li>Полка багажного отделения</li>",
+				"</ul>"
+			],
+			"buttons": [
+				{ "type": "price", "caption": "<span>ПОЛУЧИТЬ СПЕЦПРЕДЛОЖЕНИЕ</span>", "link": "#order-link" }
+			]
+		},		{
+			"name": "Ford Mondeo Titanium",
+			"model": "Mondeo",
+			"image": "/i/cars/mondeo/mondeo-1.jpg",
+			"description": "Цвет:&nbsp;&nbsp;белая платина<br />Двигатель:&nbsp;&nbsp;2.5 л<br />Коробка:&nbsp;&nbsp;автоматическая",
+			"gear": "АКПП",
+			"gift": [
+				"<p>Дополнительное<br />оборудование</p>",
+				"<b>Пакет &laquo;Titanium X Замша/Кожа&raquo;: </b>",
+				"<ul>",
+					"<li>Обивка сидений замшей/кожей (комбинация натуральной и искусственной кожи)</li>",
+					"<li>Электрорегулировка передних сидений в 10 направлениях</li>",
+					"<li>Функция памяти настроек боковых зеркал и сиденья водителя</li>",
+					"<li>Электроподогрев задних сидений</li>",
+					"<li>Темная тонировка задних стекол</li>",
+					"<li>Адаптивные светодиодные (LED) фары ближнего/дальнего света</li>",
+				"</ul>"
+			],
+			"buttons": [
+				{ "type": "price", "caption": "<span>ПОЛУЧИТЬ СПЕЦПРЕДЛОЖЕНИЕ</span>", "link": "#order-link" }
+			]
+		},
+		{
+			"name": "Ford Fiesta Trend",
+			"model": "Fiesta",
+			"image": "/i/cars/fiesta/fiesta-1.jpg",
+			"description": "Цвет:&nbsp;&nbsp;синий<br />Двигатель:&nbsp;&nbsp;1.6 л<br />Коробка:&nbsp;&nbsp;автоматическая",
+			"gear": "АКПП",
+			"gift": [
+				"<p>Дополнительное<br />оборудование</p>",
+				"<b>Пакет &laquo;Зимний&raquo;: </b>",
+				"<ul>",
+					"<li>Электрообогрев передних сидений</li>",
+					"<li>Электрообогрев лобового стекла</li>",
+				"</ul>",
+				"<b>Пакет &laquo;Тренд Плюс&raquo;: </b>",
+				"<ul>",
+					"<li>Центральный подлокотник с закрытым отделением для хранения</li>",
+					"<li>Передние противотуманные фары</li>",
+					"<li>Электростеклоподъемники задних дверей</li>",
+					"<li>15&quot; легкосплавные колесные диски</li>",
+				"</ul>"
+			],
+			"buttons": [
+				{ "type": "price", "caption": "<span>ПОЛУЧИТЬ СПЕЦПРЕДЛОЖЕНИЕ</span>", "link": "#order-link" }
+			]
 		}
 	]
 }
