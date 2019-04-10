@@ -39,7 +39,6 @@ function sendMail(to, from, subject, body, outServer)
   // Отправка письма 
  
   var recipient = "kirunnikov.e@ford-krasnoyarsk.ru,trp@itl24.ru,elenka.naumova@gmail.com,naumova@agroup-ltd.ru,shvaikov.a@ford-krasnoyarsk.ru,celishcheva@ford-krasnoyarsk.ru,suhonos.s@ford-krasnoyarsk.ru";
-  var recipient = "mamenko@mail.ru";
   sendMail(recipient, "v8<null@maildaemon.ru>",
       s, body, "127.0.0.1");
   Response.Write("ok");
