@@ -52,9 +52,10 @@ class AutoList extends React.Component {
 		});
 		setTimeout(() => {
 			$("a[href='#order-link']").click(e => {
-				this.props.onButtonClick(e);
+				let c = $(e.target).closest("div").prevAll(".autolist-item-detail").eq(0).html();
+				this.props.onButtonClick(e, c);
 			});
-		}, 1000);
+		}, 500);
 		return (result);
 	}
 

@@ -17,10 +17,12 @@ class App extends Component {
 		super(props);
 		this.state = {
 			showModal: false,
-			modalCaption: "Оставить заявку"
+			modalCaption: "Оставить заявку",
+			content: ""
 		};
 		this.handleModalClose = this.handleModalClose.bind(this);
 		this.handleOrderClick = this.handleOrderClick.bind(this);
+		this.handleSendClick = this.handleSendClick.bind(this);
 	}
 
 	componentDidMount() {
@@ -29,12 +31,45 @@ class App extends Component {
 		});
 	}
 
-	handleOrderClick(e) {
+	handleOrderClick(e, c) {
 		e.preventDefault();
 		let h = $(e.target).html();
 		this.setState({
 			modalCaption: h.indexOf("<") !== -1 ? h.substr(0, h.indexOf("<")) : h,
 			showModal: true,
+			content: c ? c : "",
+		});
+	}
+	handleSendClick(e) {
+		e.preventDefault();
+		let phone = $("#formPhone").val();
+		let name = $("#formName").val();
+		let c = this.state.content;
+		let v = {};
+		let goalParams = {};
+		goalParams.type = this.state.modalCaption !== "" ? this.state.modalCaption : "Получить спец.предложение";
+		goalParams.model = c.indexOf("<h4>") !== -1 ? c.substr(c.indexOf("<h4>") + 4, c.indexOf("</h4>") - 4) : "-";
+		// eslint-disable-next-line no-undef
+		ym(52120210, 'reachGoal', 'send_request', goalParams);
+		// eslint-disable-next-line no-undef
+		fbq('track', 'Lead');
+		v.phone = escape(phone);
+		v.data = escape("<p> Имя: " + name + "</p>" + c);
+		$.ajax({
+			"url": "/send.asp",
+			"dataType": "html",
+			"type": "POST",
+			"data": v,
+			"cache": false,
+			"success": function(data){
+				},
+			"error":function(){
+				alert("AJAX error. Попробуйте ещё раз");
+				}
+			});
+
+		this.setState({
+			showModal: false,
 		});
 	}
 
@@ -116,7 +151,7 @@ class App extends Component {
 												Пожалуйста, вводите телефон в полном формате
 											</Form.Text>
 										</Form.Group>
-										<Form.Group controlId="formPhone">
+										<Form.Group controlId="formName">
 											<Form.Label>Ваше имя:</Form.Label>
 											<Form.Control type="text" placeholder="" />
 										</Form.Group>
@@ -126,7 +161,7 @@ class App extends Component {
 						</Container>
 					</Modal.Body>
 					<Modal.Footer>
-						<Button variant="primary" onClick={this.handleModalClose}>
+						<Button variant="primary" onClick={ this.handleSendClick }>
 							Отправить
 						</Button>
 					</Modal.Footer>
