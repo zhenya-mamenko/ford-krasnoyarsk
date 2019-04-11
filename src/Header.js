@@ -22,7 +22,7 @@ const Header = () => (
 						<AButton link="#order-call" caption="Заказать звонок" />
 					</div>
 					<div className="header-phone col-lg-3 col-md-3 col-sm-5 ">
-						<div className="header-phone-number"><a href="tel:+73912054515">+7 (391) 205-45-15</a></div>
+						<div className="header-phone-number"><a className="callibri_phone" href="tel:+73912054515">+7 (391) 205-45-15</a></div>
 						<div className="header-phone-address">г. Красноярск, ул. Партизана Железняка, 46 &laquo;Д&raquo;</div>
 					</div>
 				</div>
@@ -42,7 +42,7 @@ const Header = () => (
 						<h3>ООО &laquo;ФЦ-РЕДУТ&raquo;</h3>
 					</div>
 					<div className="header-phone col-xs-12">
-						<div className="header-phone-number">+7 (391) 205-45-15</div>
+						<div className="header-phone-number"><a className="callibri_phone" href="tel:+73912054515">+7 (391) 205-45-15</a></div>
 						<div className="header-phone-address">г. Красноярск, <br />ул. Партизана Железняка, 46 &laquo;Д&raquo;</div>
 					</div>
 				</div>
